@@ -27,12 +27,13 @@
         }
 
         $nums = [15, 4, 18, 23, 10];
-        $order = TRUE;
 
         // 昇順ソート
+        $order = TRUE;
         sort_2way($nums, $order);
 
         //降順ソート
+        $order = FALSE;
         sort_2way($nums, $order);
 
 
