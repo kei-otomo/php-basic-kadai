@@ -11,7 +11,7 @@
     <p>
         <?php
         // 連想配列
-        $array = ['name' => 'onion', 'price' => '200', 'weught' => '160'];
+        $array = ['name' => 'onion', 'price' => '200', 'weight' => '160'];
         print_r($array);
         
         
